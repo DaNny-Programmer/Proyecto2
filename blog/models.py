@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 
 # Create your models here.
 class Category(models.Model):
-    name = models.CharField(max_length=100, verbose_name="Name")
+    name = models.CharField(max_length=100, verbose_name="Nombre")
     created =models.DateTimeField(auto_now_add=True, verbose_name="Fecha de creación")
     updated = models.DateTimeField(auto_now=True, verbose_name="Fecha de edición")
 
